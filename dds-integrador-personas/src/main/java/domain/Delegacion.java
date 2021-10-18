@@ -1,9 +1,24 @@
 package domain;
+import javax.persistence.*;
 
+@Entity
+@Table(name="delegacion")
 public class Delegacion {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
+
+    @ManyToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "id_delegador", referencedColumnName = "id")
     private Persona delegador;
+
+    @ManyToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "id_autorizado", referencedColumnName = "id")
     private Persona autorizado;
+
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "id_motivo")
     private Motivo motivo;
 
     public Persona getDelegador() {
