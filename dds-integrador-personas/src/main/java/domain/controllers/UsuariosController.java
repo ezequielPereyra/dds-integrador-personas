@@ -32,5 +32,14 @@ public class UsuariosController {
     public ModelAndView actualizarDato(Request request, Response response) {
         return new ModelAndView(new HashMap<>(),"actualizarDatos.hbs");
     }
+    public ModelAndView menuUsuario(Request request, Response response) {
+        return new ModelAndView(new HashMap<>(),"menuUsuario.hbs");
+    }
+    public ModelAndView iniciarSesion(Request request, Response response) {
+        return new ModelAndView(new HashMap<>(),"iniciarSesion.hbs");
+    }
+    public ModelAndView registrarse(Request request, Response response) {
+        return new ModelAndView(new HashMap<>(),"registrarse.hbs");
+    }
 
 }

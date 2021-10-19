@@ -1,0 +1,285 @@
+
+
+*{
+    background-color: #FFFBF2;
+    margin: 0;
+    padding: 0;
+     box-sizing:  border-box;
+}
+html {
+    font-size: 10px;
+  }
+
+h2{
+    background-color: black;
+    color: white;
+    text-align: left;
+}
+
+.titulo{
+    
+    width: 100%;
+    position: absolute;
+    height: 148px;
+    font-family: Copperplate Gothic;
+    background: #FFEEBD;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.letra-titulo{
+    position: relative;
+    margin-left: 5vw;
+    background: #FFEEBD;
+    height: 148px;
+    font-family: Copperplate Gothic;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 81px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.container-inicio{
+
+    background: #FFFBF2;
+    display: flex;
+}
+
+.texto_usuario
+{
+    position: absolute;
+    width: 623px;
+    height: 184px;
+    background-color: transparent;
+
+    margin-top: 10vw;
+    margin-left: 6vw;
+    font-family: Sansation Light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.boton-datos
+{
+
+margin-top: 21vw;
+margin-left: 6vw;
+
+position: absolute;
+width: 318px;
+height: 62px;
+
+background: #FFDE81;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 3px;
+
+border: none;
+
+font-size: 22px;
+font-family: Copperplate Gothic;
+
+}
+.boton-foto
+{
+
+margin-top: 27vw;
+margin-left: 6vw;
+
+position: absolute;
+width: 318px;
+height: 62px;
+
+background: #FFDE81;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 3px;
+
+border: none;
+
+font-size: 22px;
+font-family: Copperplate Gothic;
+
+}
+.boton-autorizacion
+{
+
+margin-top: 33vw;
+margin-left: 6vw;
+
+position: absolute;
+width: 318px;
+height: 62px;
+
+background: #FFDE81;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 3px;
+
+border: none;
+
+font-size: 22px;
+font-family: Copperplate Gothic;
+
+}
+
+.boton-personas
+{
+
+margin-top: 21vw;
+margin-left: 33vw;
+
+position: absolute;
+width: 318px;
+height: 62px;
+
+background: #FFDE81;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 3px;
+
+border: none;
+
+font-size: 22px;
+font-family: Copperplate Gothic;
+
+}
+
+.boton-delegaciones
+{
+
+margin-top: 27vw;
+margin-left: 33vw;
+
+position: absolute;
+width: 318px;
+height: 62px;
+
+background: #FFDE81;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 3px;
+
+border: none;
+
+font-size: 22px;
+font-family: Copperplate Gothic;
+
+}
+.linea
+{
+
+margin-top: 30vw;
+margin-left: 42vw;
+
+position: absolute;
+width: 489px;
+height: 0px;
+
+border: 2px solid #000000;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+transform: rotate(-90deg);
+}
+
+.texto-autorizacion
+{
+margin-top: 15vw;
+margin-left: 67vw;
+
+background-color: transparent;
+position: absolute;
+width: 359px;
+height: 34px;
+
+font-family: Sansation Light;
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 34px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.contenedor
+{
+
+margin-top: 20vw;
+margin-left: 65.5vw;
+
+position: absolute;
+width: 367px;
+height: 99px;
+
+background: #FFEEBE;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 3px;
+}
+
+.texto-solicitud
+{
+margin-top: 20.3vw;
+margin-left: 65.5vw;
+
+background-color: transparent;
+
+position: absolute;
+width: 367px;
+height: 99px;
+
+font-family: Sansation Light;
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 27px;
+text-align: center;
+
+color: #525252;
+}
+
+.boton-aceptar
+{
+margin-top: 24vw;
+margin-left: 68vw;
+
+border:none;
+
+position: absolute;
+width: 123px;
+height: 32px;
+
+background: #6ADF32;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 3px;
+}
+
+.boton-rechazar
+{
+margin-top: 24vw;
+margin-left: 80vw;
+
+border:none;
+
+position: absolute;
+width: 123px;
+height: 32px;
+
+background: #FF7272;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 3px;
+}

@@ -30,6 +30,8 @@ public class Router {
         Spark.get("/home", controller::mostrarTodos,Router.engine);
         Spark.get("/actualizarFoto", controller::actualizarFoto,Router.engine);
         Spark.get("/actualizarDato", controller::actualizarDato,Router.engine);
-
+        Spark.get("/iniciarSesion", controller::iniciarSesion,Router.engine);
+        Spark.get("/registrarse", controller::registrarse,Router.engine);
+        Spark.get("/menuUsuario", controller::menuUsuario,Router.engine);
     }
 }
