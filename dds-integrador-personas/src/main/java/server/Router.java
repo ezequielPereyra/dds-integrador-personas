@@ -1,5 +1,6 @@
 package server;
 
+import domain.controllers.UsuariosController;
 import spark.Spark;
 import spark.template.handlebars.HandlebarsTemplateEngine;
 import spark.utils.BooleanHelper;
@@ -24,5 +25,7 @@ public class Router {
 
     private static void configure(){
 
+        UsuariosController controller = new UsuariosController();
+        Spark.get("/home", controller::mostrarTodos,Router.engine);
     }
 }
