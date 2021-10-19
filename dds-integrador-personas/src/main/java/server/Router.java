@@ -1,6 +1,7 @@
 package server;
 
 import domain.controllers.UsuariosController;
+import spark.ResponseTransformer;
 import spark.Spark;
 import spark.template.handlebars.HandlebarsTemplateEngine;
 import spark.utils.BooleanHelper;
@@ -27,5 +28,8 @@ public class Router {
 
         UsuariosController controller = new UsuariosController();
         Spark.get("/home", controller::mostrarTodos,Router.engine);
+        Spark.get("/actualizarFoto", controller::actualizarFoto,Router.engine);
+        Spark.get("/actualizarDato", controller::actualizarDato,Router.engine);
+
     }
 }

@@ -25,4 +25,12 @@ public class UsuariosController {
     public ModelAndView mostrarTodos(Request request, Response response){
         return new ModelAndView(new HashMap<>(),"home.hbs");
     }
+
+    public ModelAndView actualizarFoto(Request request, Response response) {
+        return new ModelAndView(new HashMap<>(),"actualizarfoto.hbs");
+    }
+    public ModelAndView actualizarDato(Request request, Response response) {
+        return new ModelAndView(new HashMap<>(),"actualizarDatos.hbs");
+    }
+
 }
