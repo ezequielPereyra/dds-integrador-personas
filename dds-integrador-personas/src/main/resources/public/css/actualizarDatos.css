@@ -1,0 +1,132 @@
+
+*{
+    background-color: #FFFBF2;
+    margin: 0;
+    padding: 0;
+     box-sizing:  border-box;
+}
+html {
+    font-size: 10px;
+  }
+  /*
+h1{
+    background-color: rgb(255, 224, 158);
+    font-size: 5.0rem;
+    color: rgb(0, 0, 0);
+    text-decoration:rgb(0, 0, 0) ;
+    text-align: left;
+    font-family: Copperplate;  
+    font-weight: 100;
+}
+*/
+h2{
+    background-color: black;
+    color: white;
+    text-align: left;
+}
+
+
+
+
+.titulo{
+    
+    width: 100%;
+    position: absolute;
+    height: 148px;
+    font-family: Sansation Light;
+    background: #FFEEBD;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.letra-titulo{
+    position: relative;
+    margin-left: 5vw;
+    background: #FFEEBD;
+    height: 148px;
+    font-family: Copperplate Gothic;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 81px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.container-inicio{
+    
+    background: #FFFBF2;
+    display: flex;
+}
+
+.boton-fecha{
+    position: absolute;
+    width: 318px;
+    height: 48px;
+    margin-left: 37vw;
+    margin-top: 15vw;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    font-size: 2.5rem;
+     font-family: Copperplate Gothic;
+     color: #BBBBBB;
+}
+
+.boton-ciudad{
+    position: absolute;
+    width: 318px;
+    height: 48px;
+    margin-left: 37vw;
+    margin-top: 21.5vw;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    font-size: 2.5rem;
+    font-family: Copperplate Gothic;
+    color: #BBBBBB;
+}
+
+.boton-localidad{
+    position: absolute;
+    width: 318px;
+    height: 48px;
+    margin-left: 37vw;
+    margin-top: 28vw;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    font-size: 2.5rem;
+    font-family: Copperplate Gothic;
+    color: #BBBBBB;
+}
+
+.boton-actualizar{
+    position: absolute;
+    width: 318px;
+    height: 48px;
+    margin-left: 37vw;
+    margin-top: 35vw;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    font-size: 2.5rem;
+    font-family: Copperplate Gothic;
+    color: #BBBBBB;
+    background: #FFDE81;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border:none;
+}
+
+.texto-bienvenida{ 
+    font-family: Copperplate Gothic;
+    font-size: 2.5rem;
+    position: absolute;
+    margin-left: 10vw;
+    margin-top: 15vw;
+    background-color: #FFFBF2;
+    text-align: center;
+}
